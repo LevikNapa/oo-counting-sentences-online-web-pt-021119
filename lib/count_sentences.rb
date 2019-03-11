@@ -23,8 +23,9 @@ self.end_with?("!")
   # end
   array = self.split(/[!?.]/).reject do |string|
     string.empty?
-    
+    # binding.pry
   end
   array.length
+  # binding.pry
 end
 end
